@@ -18,7 +18,6 @@ type user ={
 export default function Home() {
   const [word, setWord] =useState<user[]>([])
   const [loding, setLoding] = useState(true)
-    const[nam, setNam] = useState(" ")
     
     const searchpara = useSearchParams();
     const search = searchpara.get('search') || '';
